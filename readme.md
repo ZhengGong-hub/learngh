@@ -45,3 +45,6 @@ git diff origin/master
 git fetch origin
 
 git merge origin/master
+
+# show all branches local or remote
+git branch -a 
