@@ -25,8 +25,8 @@ git help --all
 git branch new_branch_name
 
 # create branch and checkout in one go 
-
 git checkout -b new_branch_name 
+
 # list all branches
 git branch 
 
@@ -36,3 +36,12 @@ git checkout new_branch_name
 # github 
 git remote add origin https://github.com/ZhengGong-hub/learngh.git
 git push --set-upstream origin master 
+
+# show difference 
+git diff origin/master
+
+# pull = fetch + merge 
+# fetch  # what is happening on gh
+git fetch origin
+
+git merge origin/master
