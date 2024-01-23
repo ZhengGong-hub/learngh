@@ -32,3 +32,7 @@ git branch
 
 # checkout to another branch
 git checkout new_branch_name
+
+# github 
+git remote add origin https://github.com/ZhengGong-hub/learngh.git
+git push --set-upstream origin master 
