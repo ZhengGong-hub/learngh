@@ -23,6 +23,10 @@ git help --all
 
 # branch
 git branch new_branch_name
+
+# create branch and checkout in one go 
+
+git branch -b new_branch_name 
 # list all branches
 git branch 
 
